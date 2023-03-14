@@ -1,0 +1,886 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.common_head {
+  text-align: center;
+}
+.common_head h5 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 10px;
+}
+.common_head h4 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  position: relative;
+}
+.common_head h4::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #f38181;
+}
+
+/*=========================================================
+                    Common css end
+=========================================================*/
+/*=========================================================
+                    Menu css Start
+=========================================================*/
+.navbar {
+  padding: 15px 0 15px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  transition: all linear 0.3s;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+.navbar .navbar-toggler #nav-icon1 {
+  margin: 0 !important;
+}
+.navbar .navbar-nav .nav-item {
+  margin-left: 50px;
+}
+.navbar .navbar-nav .nav-item a,
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0 !important;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+  position: relative;
+}
+.navbar .navbar-nav .nav-item a::after,
+.navbar .navbar-nav .nav-item .nav-link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -25px;
+  width: 100%;
+  height: 4px;
+  background: #fce38a;
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+.navbar .navbar-nav .nav-item a:hover,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #fce38a;
+}
+.navbar .navbar-nav .nav-item a:hover::after,
+.navbar .navbar-nav .nav-item .nav-link:hover::after {
+  transform: scale(1);
+}
+
+#nav-icon1,
+#nav-icon2,
+#nav-icon3,
+#nav-icon4 {
+  width: 25px;
+  height: 40px;
+  position: relative;
+  margin: 50px auto;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span,
+#nav-icon3 span,
+#nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 10px;
+}
+#nav-icon1 span:nth-child(2) {
+  top: 18px;
+}
+#nav-icon1 span:nth-child(3) {
+  top: 26px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg);
+}
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+#nav-icon1.open span:nth-child(3) {
+  top: 18px;
+  transform: rotate(-135deg);
+}
+
+.menu_fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: rgba(66, 115, 179, 0.5882352941);
+  border-bottom: 1px solid #000;
+}
+
+/*=========================================================
+                    Menu css end
+=========================================================*/
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner {
+  padding: 230px 0;
+}
+#banner .banner_text h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 15px;
+}
+#banner .banner_text h1 {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 95px;
+  position: relative;
+}
+#banner .banner_text h1:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 3px;
+  left: 50%;
+  bottom: -35px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+#banner .banner_text a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: 3px solid #fff;
+  transition: all linear 0.3s;
+}
+#banner .banner_text a:hover {
+  background: #fff;
+  color: #fce38a;
+}
+
+/*=========================================================
+                    Banner css end
+=========================================================*/
+/*=========================================================
+                    About css Start
+=========================================================*/
+#about {
+  padding: 90px 0 110px;
+}
+#about .about_text {
+  margin-bottom: 95px;
+  margin-top: 50px;
+  text-align: center;
+}
+#about .about_text p {
+  color: #999;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+#about .about_gal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#about .about_gal .prev_aro {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  transform: translateY(-50%);
+  font-size: 35px;
+  color: #999;
+  transition: all linear 0.3s;
+}
+#about .about_gal .prev_aro:hover {
+  color: #fce38a;
+  font-size: 45px;
+}
+#about .about_gal .nxt_aro {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  transform: translateY(-50%);
+  font-size: 35px;
+  color: #999;
+  transition: all linear 0.3s;
+}
+#about .about_gal .nxt_aro:hover {
+  color: #fce38a;
+  font-size: 45px;
+}
+#about .about_gal .about_items {
+  position: relative;
+  transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  margin-right: 30px;
+}
+#about .about_gal .about_items:hover .about_overlay {
+  display: block;
+}
+#about .about_gal .about_items .about_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  display: none;
+  transition: all linear 0.3s;
+}
+#about .about_gal .about_items .about_overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  transition: all linear 0.3s;
+}
+#about .about_gal .about_items .about_overlay h5 {
+  position: absolute;
+  left: 50%;
+  bottom: 35%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+#about .about_gal .about_items:nth-child(3) {
+  margin-right: 0;
+}
+#about .about_gal .about_items img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*=========================================================
+                    About css end
+=========================================================*/
+/*=========================================================
+                    Counter css Start
+=========================================================*/
+#counter {
+  background: #95e1d3;
+}
+#counter .counter_inner {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#counter .counter_inner .count_item {
+  width: 20%;
+  padding: 90px 0;
+  border-right: 1px solid #b5eae0;
+}
+#counter .counter_inner .count_item:first-child {
+  border-left: 1px solid #b5eae0;
+}
+#counter .counter_inner .count_item h4 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
+}
+#counter .counter_inner .count_item p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/*=========================================================
+                    Counter css end
+=========================================================*/
+/*=========================================================
+                    Service css Start
+=========================================================*/
+#service {
+  padding: 110px 0 5px;
+}
+#service .service_inner {
+  margin-top: 65px;
+}
+#service .service_inner .service_item {
+  padding-left: 70px;
+  position: relative;
+  margin-bottom: 90px;
+}
+#service .service_inner .service_item i {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  color: #95e1d3;
+  font-size: 20px;
+}
+#service .service_inner .service_item h6 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#service .service_inner .service_item p {
+  color: #999;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+
+/*=========================================================
+                    Service css end
+=========================================================*/
+/*=========================================================
+                    Comment css Start
+=========================================================*/
+#comment {
+  padding: 70px 0;
+  background: #f8f8f8;
+}
+#comment .comment_slider {
+  position: relative;
+}
+#comment .comment_slider .prev_aro {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  transform: translateY(-50%);
+  font-size: 35px;
+  color: #999;
+  transition: all linear 0.3s;
+}
+#comment .comment_slider .prev_aro:hover {
+  color: #fce38a;
+  font-size: 45px;
+}
+#comment .comment_slider .nxt_aro {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  transform: translateY(-50%);
+  font-size: 35px;
+  color: #999;
+  transition: all linear 0.3s;
+}
+#comment .comment_slider .nxt_aro:hover {
+  color: #fce38a;
+  font-size: 45px;
+}
+#comment .comment_slider .comment_inner {
+  padding-left: 230px;
+  position: relative;
+}
+#comment .comment_slider .comment_inner i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #95e1d3;
+  font-size: 60px;
+  border: 3px solid #95e1d3;
+  padding: 45px 40px;
+}
+#comment .comment_slider .comment_inner p {
+  color: #999;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+#comment .comment_slider .comment_inner a {
+  color: #333;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Kaushan Script", cursive;
+  padding-left: 70px;
+  position: relative;
+}
+#comment .comment_slider .comment_inner a:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 3px;
+  left: 0;
+  top: 50%;
+  background: #f38181;
+  transform: translateY(-50%);
+}
+
+/*=========================================================
+                    Comment css end
+=========================================================*/
+/*=========================================================
+                    Team css Start
+=========================================================*/
+#team {
+  padding: 100px 0 90px;
+}
+#team .team_text {
+  margin-bottom: 95px;
+  margin-top: 50px;
+  text-align: center;
+}
+#team .team_text p {
+  color: #999;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+#team .team_inner .team_member {
+  text-align: center;
+}
+#team .team_inner .team_member:hover .team_img .overlay {
+  transform: scale(1);
+}
+#team .team_inner .team_member .team_img {
+  position: relative;
+}
+#team .team_inner .team_member .team_img .overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+#team .team_inner .team_member .team_img .overlay ul {
+  position: absolute;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#team .team_inner .team_member .team_img .overlay ul li {
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  background: #fce38a;
+  border-right: 1px solid #f38181;
+  transition: all linear 0.3s;
+}
+#team .team_inner .team_member .team_img .overlay ul li:last-child {
+  border-right: none;
+}
+#team .team_inner .team_member .team_img .overlay ul li:hover {
+  background: #f38181;
+}
+#team .team_inner .team_member .team_img .overlay ul li:hover i {
+  color: #fce38a;
+}
+#team .team_inner .team_member .team_img .overlay ul li i {
+  color: #f38181;
+  font-size: 20px;
+  transition: all linear 0.3s;
+}
+#team .team_inner .team_member .team_img img {
+  width: 100%;
+  max-width: 100%;
+}
+#team .team_inner .team_member h5,
+#team .team_inner .team_member .name {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+#team .team_inner .team_member h6,
+#team .team_inner .team_member .reg {
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/*=========================================================
+                    Team css end
+=========================================================*/
+/*=========================================================
+                    Work css Start
+=========================================================*/
+#work {
+  overflow: hidden;
+}
+#work .work_text {
+  margin-bottom: 95px;
+  margin-top: 50px;
+  text-align: center;
+}
+#work .work_text p {
+  color: #999;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+#work .work_gal .work_left .work_gal_col {
+  position: relative;
+  padding: 0;
+}
+#work .work_gal .work_left .work_gal_col .work_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+#work .work_gal .work_left .work_gal_col .work_overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  cursor: zoom-in;
+}
+#work .work_gal .work_left .work_gal_col:hover .work_overlay {
+  transform: scale(1);
+}
+#work .work_gal .work_left .work_gal_col img {
+  width: 100%;
+  max-width: 100%;
+}
+#work .work_gal .work_right .work_gal_col {
+  padding: 0;
+}
+#work .work_gal .work_right .work_gal_col .work_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+#work .work_gal .work_right .work_gal_col .work_overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  cursor: zoom-in;
+}
+#work .work_gal .work_right .work_gal_col:hover .work_overlay {
+  transform: scale(1);
+}
+#work .work_gal .work_right .work_gal_col img {
+  width: 100%;
+  max-width: 100%;
+}
+#work .work_gal .work_right .work_right_2 .work_gal_col {
+  padding: 0;
+}
+#work .work_gal .work_right .work_right_2 .work_gal_col .work_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(226, 62, 56, 0.5);
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+#work .work_gal .work_right .work_right_2 .work_gal_col .work_overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  cursor: zoom-in;
+}
+#work .work_gal .work_right .work_right_2 .work_gal_col:hover .work_overlay {
+  transform: scale(0.9);
+}
+#work .work_gal .work_right .work_right_2 .work_gal_col img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*=========================================================
+                    Work css end
+=========================================================*/
+/*=========================================================
+                    Footer css Start
+=========================================================*/
+#footer {
+  padding: 70px 0 22px;
+  background: #f8f8f8;
+}
+#footer .footer_head {
+  margin-bottom: 35px;
+}
+#footer .footer_head h5 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+#footer .footer_left .footer_text p {
+  color: #999;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  margin-top: 35px;
+}
+#footer .footer_left .footer_text h6 {
+  position: relative;
+  padding-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 35px;
+}
+#footer .footer_left .footer_text h6::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  background: #999;
+}
+#footer .footer_left .footer_text h6 span {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+#footer .footer_left .footer_text .follow_icons {
+  position: relative;
+  padding: 15px 0;
+}
+#footer .footer_left .footer_text .follow_icons p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+}
+#footer .footer_left .footer_text .follow_icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+}
+#footer .footer_left .footer_text .follow_icons ul li {
+  margin-right: 20px;
+  transition: all linear 0.3s;
+}
+#footer .footer_left .footer_text .follow_icons ul li:hover a i {
+  color: #fce38a;
+}
+#footer .footer_left .footer_text .follow_icons ul li a i {
+  color: #95e1d3;
+  font-size: 20px;
+}
+#footer .footer_left .footer_text .subs {
+  position: relative;
+}
+#footer .footer_left .footer_text .subs:hover input {
+  border-color: #fce38a;
+}
+#footer .footer_left .footer_text .subs input {
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+  color: #ccc;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  border: 2px solid #e7e7e7;
+}
+#footer .footer_left .footer_text .subs a {
+  transition: all linear 0.3s;
+  position: absolute;
+  top: 0;
+  right: 52px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  height: 40px;
+  background: #95e1d3;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#footer .footer_left .footer_text .subs a:hover {
+  background: #fce38a;
+}
+#footer .footer_mid .blog_item {
+  position: relative;
+  padding-left: 130px;
+  margin-bottom: 50px;
+}
+#footer .footer_mid .blog_item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#footer .footer_mid .blog_item h5 {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+#footer .footer_mid .blog_item p {
+  color: #999;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+#footer .footer_right ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer .footer_right ul li {
+  width: 32%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#footer .footer_right ul li:nth-child(3), #footer .footer_right ul li:nth-child(6), #footer .footer_right ul li:nth-child(9) {
+  margin-right: 0;
+}
+#footer .footer_right ul li:nth-child(7), #footer .footer_right ul li:nth-child(8), #footer .footer_right ul li:nth-child(9) {
+  margin-bottom: 0px;
+}
+#footer .footer_right ul li img {
+  width: 100%;
+  max-width: 100%;
+}
+#footer .footer_right a {
+  color: #333;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  transition: all linear 0.3s;
+}
+#footer .footer_right a:hover {
+  color: #95e1d3;
+}
+#footer .footer_bottom {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+}
+#footer .footer_bottom p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+#footer .footer_bottom p a {
+  color: #f38181;
+}
+
+/*=========================================================
+                    Footer css end
+=========================================================*//*# sourceMappingURL=style.css.map */

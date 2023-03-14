@@ -1,0 +1,208 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Footer css Start
+=========================================================*/
+#footer {
+    padding: 70px 0 22px;
+    background: #f8f8f8;
+
+    .footer_head {
+        margin-bottom: 35px;
+
+        h5 {
+            @include fs(#333, 14px, 500, $mon);
+            text-transform: uppercase;
+        }
+    }
+
+    .footer_left {
+        .footer_text {
+            p {
+                @include fs(#999, 15px, 400, $robo);
+                line-height: 24px;
+                margin-top: 35px;
+            }
+
+            h6 {
+                position: relative;
+
+                &::after {
+                    @include lb(100%, 1px, 0, 0, #999);
+                }
+
+                padding-bottom: 15px;
+
+                @include fs(#333, 18px, 700, $mon);
+                margin-top: 35px;
+
+                span {
+                    @include fs(#333, 14px, 400, $mon);
+                }
+            }
+
+            .follow_icons {
+                position: relative;
+                padding: 15px 0;
+
+                p {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    @include fs(#999, 15px, 300, $robo);
+                    font-style: italic;
+                    margin-top: 15px;
+                }
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-left: 100px;
+
+                    li {
+                        margin-right: 20px;
+                        transition: all linear .3s;
+
+                        &:hover {
+                            a {
+                                i {
+                                    color: $hover;
+                                }
+                            }
+                        }
+
+                        a {
+                            i {
+                                color: #95e1d3;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .subs {
+                position: relative;
+
+                &:hover {
+                    input {
+                        border-color: $hover;
+                    }
+                }
+
+                input {
+                    width: 250px;
+                    height: 40px;
+                    padding-left: 10px;
+                    @include fs(#ccc, 15px, 300, $robo);
+                    font-style: italic;
+                    line-height: 40px;
+                    border: 2px solid #e7e7e7;
+                }
+
+                a {
+                    transition: all linear .3s;
+
+                    &:hover {
+                        background: $hover;
+                    }
+
+                    position: absolute;
+                    top: 0;
+                    right: 52px;
+                    @include fs(#fff, 14px, 700, $mon);
+                    width: 150px;
+                    height: 40px;
+                    background: #95e1d3;
+                    line-height: 40px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .footer_mid {
+        .blog_item {
+            position: relative;
+            padding-left: 130px;
+            margin-bottom: 50px;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            h5 {
+                @include fs(#333, 12px, 400, $mon);
+                padding-top: 15px;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+
+            p {
+                @include fs(#999, 13px, 300, $robo);
+                font-style: italic;
+            }
+        }
+    }
+
+    .footer_right {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                width: 32%;
+                margin-right: 5px;
+                margin-bottom: 5px;
+
+                &:nth-child(3),
+                &:nth-child(6),
+                &:nth-child(9) {
+                    margin-right: 0;
+                }
+
+                &:nth-child(7),
+                &:nth-child(8),
+                &:nth-child(9) {
+                    margin-bottom: 0px;
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+
+        a {
+            @include fs(#333, 13px, 300, $robo);
+            font-style: italic;
+            margin-top: 15px;
+            transition: all linear .3s;
+
+            &:hover {
+                color: #95e1d3;
+            }
+        }
+    }
+
+    .footer_bottom{
+        text-align: center;
+        border-top: 1px solid #e5e5e5;
+        padding-top: 20px;
+        p{
+            @include fs(#333, 14px, 400, $mon);
+            a{
+                color: #f38181;
+            }
+        }
+    }
+}
+
+/*=========================================================
+                    Footer css end
+=========================================================*/

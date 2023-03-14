@@ -1,0 +1,1398 @@
+@media (max-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    #banner {
+        padding: 200px 0 120px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 130px;
+    }
+
+
+
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 16px;
+        bottom: 30%;
+    }
+
+
+
+
+    #counter .counter_inner .count_item {
+        padding: 70px 0;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #banner {
+        padding: 200px 0 60px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 80px;
+        margin-bottom: 85px;
+    }
+
+    #banner .banner_text h2 {
+        font-size: 65px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    #about .about_text {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 16px;
+        bottom: 30%;
+    }
+
+    #about .about_gal .about_items .about_overlay i {
+        font-size: 22px;
+    }
+
+
+
+
+    #counter .counter_inner .count_item {
+        padding: 50px 0;
+    }
+
+    #counter .counter_inner .count_item h4 {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+
+
+
+    #service .service_inner {
+        margin-top: 50px;
+    }
+
+    #service .service_inner .service_item {
+        margin-bottom: 60px;
+    }
+
+
+
+
+    #comment .comment_slider .comment_inner p {
+        font-size: 20px;
+    }
+
+
+
+
+
+    #team .team_text {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+
+
+
+    #work .work_text {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+
+
+
+    #footer .footer_left .footer_text p {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul {
+        padding-left: 90px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li {
+        margin-right: 18px;
+    }
+
+    #footer .footer_mid .blog_item {
+        margin-bottom: 20px;
+    }
+
+    #footer .footer_mid .blog_item h5 {
+        padding-top: 5px;
+    }
+
+    #footer .footer_right ul li {
+        width: 31.79%;
+    }
+
+    #footer .footer_bottom {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar {
+        padding: 5px 0 !important;
+    }
+
+    .navbar .navbar-nav {
+        background: #fff;
+        width: 160px;
+        text-align: center;
+        padding: 20px 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+        margin: 10px 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover::after,
+    .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover,
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #000;
+    }
+
+
+
+
+
+    #banner {
+        padding: 130px 0 30px;
+    }
+
+    #banner .banner_text h2 {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 55px;
+        margin-bottom: 70px;
+    }
+
+    #banner .banner_text h1::after {
+        width: 50px;
+        bottom: -30px;
+    }
+
+    #banner .banner_text a {
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 2px solid #fff;
+    }
+
+
+
+
+
+    #about {
+        padding: 50px 0 50px;
+    }
+
+    .common_head h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .common_head h4 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #about .about_text {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #about .about_text p {
+        font-size: 13px;
+    }
+
+    #about .about_gal .about_items {
+        margin-right: 0;
+        padding-right: 10px;
+    }
+
+    #about .about_gal .about_items .about_overlay {
+        width: 96%;
+    }
+
+    #about .about_gal .about_items .about_overlay i {
+        font-size: 22px;
+    }
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 14px;
+        bottom: 30%;
+    }
+
+    #about .about_gal .nxt_aro {
+        top: -25px;
+        right: 1%;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #about .about_gal .prev_aro {
+        top: -25px;
+        left: 90%;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #about .about_gal .prev_aro:hover {
+        font-size: 20px;
+    }
+
+    #about .about_gal .nxt_aro:hover {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    #counter .counter_inner {
+        padding: 15px 0;
+    }
+
+    #counter .counter_inner .count_item {
+        width: 20%;
+        padding: 5px 0;
+    }
+
+    #counter .counter_inner {
+        justify-content: space-evenly;
+    }
+
+    #counter .counter_inner .count_item h4 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    #counter .counter_inner .count_item p {
+        font-size: 12px;
+    }
+
+    #counter .counter_inner .count_item:first-child {
+        border-left: none;
+    }
+
+    #counter .counter_inner .count_item {
+        border-right: none;
+    }
+
+    #service {
+        padding: 50px 0 15px;
+    }
+
+    #service .service_inner {
+        margin-top: 35px;
+    }
+
+    #service .service_inner .service_item {
+        margin-bottom: 25px;
+        padding-left: 50px;
+    }
+
+    #service .service_inner .service_item h6 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    #service .service_inner .service_item p {
+        font-size: 13px;
+    }
+
+    #service .service_inner .service_item i {
+        top: 0;
+        left: 0;
+        transform: none;
+        font-size: 25px;
+    }
+
+
+
+
+    #comment {
+        padding: 50px 0;
+    }
+
+    #comment .comment_slider .comment_inner i {
+        font-size: 50px;
+        padding: 30px 25px;
+    }
+
+    #comment .comment_slider .comment_inner {
+        position: relative;
+        padding-top: 70px;
+        padding: 0px 5px 0 135px;
+    }
+
+    #comment .comment_slider .comment_inner p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    #comment .comment_slider .comment_inner a {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    */ #comment .comment_slider .comment_inner a::after {
+        width: 35px;
+        height: 2px;
+        left: 50%;
+    }
+
+    #comment .comment_slider .nxt_aro {
+        top: 110%;
+        right: 20px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #comment .comment_slider .prev_aro {
+        top: 110%;
+        left: 20px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #comment .comment_slider .prev_aro:hover {
+        font-size: 25px;
+    }
+
+    #comment .comment_slider .nxt_aro:hover {
+        font-size: 25px;
+    }
+
+
+
+
+
+    #team {
+        padding: 50px 0 30px;
+        border-bottom: 1px solid #000;
+    }
+
+    #team .team_text {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    #team .team_text p {
+        font-size: 13px;
+    }
+
+    #team .team_inner .team_member .team_img .overlay {
+        bottom: 10px;
+        right: 0;
+        width: 100%;
+        height: 10%;
+        transform: scale(1);
+        background: transparent;
+    }
+
+    #team .team_inner .team_member .team_img .overlay ul li i {
+        font-size: 15px;
+    }
+
+    #team .team_inner .team_member .team_img .overlay ul li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #team .team_inner .team_member {
+        margin-bottom: 20px;
+    }
+
+    #team .team_inner .team_member h5,
+    #team .team_inner .team_member .name {
+        margin-top: 10px;
+    }
+
+    #team .team_inner .team_member h6,
+    #team .team_inner .team_member .reg {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+    #work {
+        margin-top: 50px;
+    }
+
+    #work .work_big_img {
+        display: none;
+    }
+
+    #work .work_text {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    #work .work_text p {
+        font-size: 13px;
+    }
+
+
+
+
+    #footer {
+        padding: 50px 0 22px;
+    }
+
+    #footer .footer_left .footer_text p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    #footer .footer_left .footer_text h6 {
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #footer .footer_left .footer_text h6 span {
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons p {
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li a i {
+        font-size: 15px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li {
+        margin-right: 15px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li:last-child {
+        margin-right: 0;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul {
+        padding-left: 75px;
+    }
+
+    #footer .footer_left .footer_text .subs input {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    /*     #footer .footer_left .footer_text .subs {
+        margin-bottom: 50px;
+    } */
+
+    #footer .footer_left .footer_text .subs a {
+        top: 0px;
+        right: 0;
+        transform: none;
+        font-size: 14px;
+        width: 40%;
+        height: 40px;
+    }
+
+    #footer .footer_head {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #footer .footer_mid .blog_item {
+        margin-bottom: 35px;
+    }
+
+    #footer .footer_mid .blog_item h5 {
+        padding-top: 0px;
+    }
+
+    #footer .footer_mid .blog_item p {
+        font-size: 12px;
+    }
+
+    #footer .footer_bottom {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    #footer .footer_bottom p {
+        font-size: 13px;
+    }
+
+    #footer .footer_right ul li {
+        width: 31.98%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .navbar {
+        padding: 5px 0 !important;
+    }
+
+    .navbar .navbar-nav {
+        background: #fff;
+        width: 160px;
+        text-align: center;
+        padding: 20px 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+        margin: 10px 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover::after,
+    .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover,
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #000;
+    }
+
+
+
+
+
+    #banner {
+        padding: 130px 0 30px;
+    }
+
+    #banner .banner_text h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    #banner .banner_text h1::after {
+        width: 50px;
+        bottom: -30px;
+    }
+
+    #banner .banner_text a {
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 2px solid #fff;
+    }
+
+
+
+
+
+    #about {
+        padding: 50px 0 50px;
+    }
+
+    .common_head h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .common_head h4 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #about .about_text {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #about .about_text p {
+        font-size: 13px;
+    }
+
+    #about .about_gal .about_items {
+        margin-right: 0;
+        padding-right: 10px;
+    }
+
+    #about .about_gal .about_items .about_overlay {
+        width: 96%;
+    }
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 14px;
+    }
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 14px;
+    }
+
+    #about .about_gal .nxt_aro {
+        top: -25px;
+        right: 1%;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #about .about_gal .prev_aro {
+        top: -25px;
+        left: 90%;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #about .about_gal .prev_aro:hover {
+        font-size: 20px;
+    }
+
+    #about .about_gal .nxt_aro:hover {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    #counter .counter_inner {
+        padding: 15px 0;
+    }
+
+    #counter .counter_inner .count_item {
+        width: 20%;
+        padding: 5px 0;
+    }
+
+    #counter .counter_inner {
+        justify-content: space-evenly;
+    }
+
+    #counter .counter_inner .count_item h4 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    #counter .counter_inner .count_item p {
+        font-size: 12px;
+    }
+
+    #counter .counter_inner .count_item:first-child {
+        border-left: none;
+    }
+
+    #counter .counter_inner .count_item {
+        border-right: none;
+    }
+
+    #service {
+        padding: 50px 0 15px;
+    }
+
+    #service .service_inner {
+        margin-top: 35px;
+    }
+
+    #service .service_inner .service_item {
+        margin-bottom: 25px;
+        padding-left: 50px;
+    }
+
+    #service .service_inner .service_item h6 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    #service .service_inner .service_item p {
+        font-size: 13px;
+    }
+
+    #service .service_inner .service_item i {
+        top: 0;
+        left: 0;
+        transform: none;
+        font-size: 25px;
+    }
+
+
+
+
+    #comment {
+        padding: 50px 0;
+    }
+
+    #comment .comment_slider .comment_inner i {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        border: 2px solid #95e1d3;
+        padding: 15px 15px;
+    }
+
+    #comment .comment_slider .comment_inner {
+        position: relative;
+        padding-top: 70px;
+        padding: 70px 5px 0 5px;
+    }
+
+    #comment .comment_slider .comment_inner p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #comment .comment_slider .comment_inner a {
+        font-size: 18px;
+        padding-left: 65%;
+    }
+
+    #comment .comment_slider .comment_inner a::after {
+        width: 35px;
+        height: 2px;
+        left: 50%;
+    }
+
+    #comment .comment_slider .nxt_aro {
+        top: 100%;
+        right: 20px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #comment .comment_slider .prev_aro {
+        top: 100%;
+        left: 20px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #comment .comment_slider .prev_aro:hover {
+        font-size: 25px;
+    }
+
+    #comment .comment_slider .nxt_aro:hover {
+        font-size: 25px;
+    }
+
+
+
+
+
+    #team {
+        padding: 50px 0 30px;
+        border-bottom: 1px solid #000;
+    }
+
+    #team .team_text {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    #team .team_text p {
+        font-size: 13px;
+    }
+
+    #team .team_inner .team_member .team_img .overlay {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 10%;
+        transform: scale(1);
+        background: transparent;
+    }
+
+    #team .team_inner .team_member .team_img .overlay ul li i {
+        font-size: 15px;
+    }
+
+    #team .team_inner .team_member .team_img .overlay ul li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #team .team_inner .team_member {
+        margin-bottom: 20px;
+    }
+
+    #team .team_inner .team_member h5,
+    #team .team_inner .team_member .name {
+        margin-top: 10px;
+    }
+
+    #team .team_inner .team_member h6,
+    #team .team_inner .team_member .reg {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+    #work {
+        margin-top: 50px;
+    }
+
+    #work .work_big_img {
+        display: none;
+    }
+
+    #work .work_text {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    #work .work_text p {
+        font-size: 13px;
+    }
+
+
+
+
+    #footer {
+        padding: 50px 0 22px;
+    }
+
+    #footer .footer_left .footer_text p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    #footer .footer_left .footer_text h6 {
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #footer .footer_left .footer_text h6 span {
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons p {
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li a i {
+        font-size: 15px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li {
+        margin-right: 15px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li:last-child {
+        margin-right: 0;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul {
+        padding-left: 75px;
+    }
+
+    #footer .footer_left .footer_text .subs input {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .subs {
+        margin-bottom: 50px;
+    }
+
+    #footer .footer_left .footer_text .subs a {
+        top: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 60%;
+        height: 40px;
+    }
+
+    #footer .footer_head {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #footer .footer_mid .blog_item {
+        margin-bottom: 20px;
+    }
+
+    #footer .footer_mid .blog_item h5 {
+        padding-top: 0px;
+    }
+
+    #footer .footer_mid .blog_item p {
+        font-size: 12px;
+    }
+
+    #footer .footer_bottom {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    #footer .footer_bottom p {
+        font-size: 13px;
+    }
+
+    #footer .footer_right ul li {
+        width: 31.98%;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar .navbar-nav {
+        background: #fff;
+        width: 130px;
+        text-align: center;
+        padding: 20px 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+        margin: 10px 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover::after,
+    .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item a:hover,
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #000;
+    }
+
+
+
+
+
+    #banner {
+        padding: 130px 0 30px;
+    }
+
+    #banner .banner_text h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    #banner .banner_text h1::after {
+        width: 50px;
+        bottom: -30px;
+    }
+
+    #banner .banner_text a {
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 2px solid #fff;
+    }
+
+
+
+
+
+    #about {
+        padding: 50px 0 50px;
+    }
+
+    .common_head h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .common_head h4 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #about .about_text {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #about .about_text p {
+        font-size: 13px;
+    }
+
+    #about .about_gal .about_items {
+        margin-right: 0;
+    }
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 14px;
+    }
+
+    #about .about_gal .about_items .about_overlay h5 {
+        font-size: 14px;
+    }
+
+    #about .about_gal .nxt_aro {
+        top: -25px;
+        right: 1%;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #about .about_gal .prev_aro {
+        top: -25px;
+        left: 90%;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #about .about_gal .prev_aro:hover {
+        font-size: 20px;
+    }
+
+    #about .about_gal .nxt_aro:hover {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    #counter .counter_inner {
+        padding: 15px 0;
+    }
+
+    #counter .counter_inner .count_item {
+        width: 50%;
+        padding: 5px 0;
+    }
+
+    #counter .counter_inner {
+        justify-content: space-evenly;
+    }
+
+    #counter .counter_inner .count_item h4 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    #counter .counter_inner .count_item p {
+        font-size: 12px;
+    }
+
+    #counter .counter_inner .count_item:first-child {
+        border-left: none;
+    }
+
+    #counter .counter_inner .count_item {
+        border-right: none;
+    }
+
+    #service {
+        padding: 50px 0 15px;
+    }
+
+    #service .service_inner {
+        margin-top: 35px;
+    }
+
+    #service .service_inner .service_item {
+        margin-bottom: 30px;
+    }
+
+    #service .service_inner .service_item h6 {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    #service .service_inner .service_item p {
+        font-size: 13px;
+    }
+
+    #service .service_inner .service_item i {
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 25px;
+    }
+
+
+
+
+    #comment {
+        padding: 50px 0;
+    }
+
+    #comment .comment_slider .comment_inner i {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        border: 2px solid #95e1d3;
+        padding: 15px 15px;
+    }
+
+    #comment .comment_slider .comment_inner {
+        padding-left: 0;
+        position: relative;
+        padding-top: 70px;
+    }
+
+    #comment .comment_slider .comment_inner p {
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    #comment .comment_slider .comment_inner a {
+        font-size: 18px;
+        padding-left: 65%;
+    }
+
+    #comment .comment_slider .comment_inner a::after {
+        width: 35px;
+        height: 2px;
+        left: 60%;
+    }
+
+    #comment .comment_slider .nxt_aro {
+        top: 100%;
+        right: 20px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #comment .comment_slider .prev_aro {
+        top: 100%;
+        left: 20px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    #comment .comment_slider .prev_aro:hover {
+        font-size: 25px;
+    }
+
+    #comment .comment_slider .nxt_aro:hover {
+        font-size: 25px;
+    }
+
+
+
+
+
+    #team {
+        padding: 50px 0 30px;
+        border-bottom: 1px solid #000;
+    }
+
+    #team .team_text {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    #team .team_text p {
+        font-size: 13px;
+    }
+
+    #team .team_inner .team_member .team_img .overlay {
+        bottom: 5px;
+        right: 0;
+        width: 100%;
+        height: 10%;
+        transform: scale(1);
+        background: transparent;
+    }
+
+    #team .team_inner .team_member .team_img .overlay ul li i {
+        font-size: 15px;
+    }
+
+    #team .team_inner .team_member .team_img .overlay ul li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #team .team_inner .team_member {
+        margin-bottom: 20px;
+    }
+
+    #team .team_inner .team_member h5,
+    #team .team_inner .team_member .name {
+        margin-top: 10px;
+    }
+
+    #team .team_inner .team_member h6,
+    #team .team_inner .team_member .reg {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+    #work {
+        margin-top: 50px;
+    }
+
+    #work .work_big_img {
+        display: none;
+    }
+
+    #work .work_text {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    #work .work_text p {
+        font-size: 13px;
+    }
+
+
+
+
+    #footer {
+        padding: 50px 0 22px;
+    }
+
+    #footer .footer_left .footer_text p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    #footer .footer_left .footer_text h6 {
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #footer .footer_left .footer_text h6 span {
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons p {
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li a i {
+        font-size: 15px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li {
+        margin-right: 15px;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul li:last-child {
+        margin-right: 0;
+    }
+
+    #footer .footer_left .footer_text .follow_icons ul {
+        padding-left: 75px;
+    }
+
+    #footer .footer_left .footer_text .subs input {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    #footer .footer_left .footer_text .subs {
+        margin-bottom: 50px;
+    }
+
+    #footer .footer_left .footer_text .subs a {
+        top: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        width: 80%;
+        height: 40px;
+    }
+
+    #footer .footer_head {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #footer .footer_mid .blog_item {
+        margin-bottom: 50px;
+    }
+
+    #footer .footer_mid .blog_item h5 {
+        padding-top: 0px;
+    }
+
+    #footer .footer_mid .blog_item p {
+        font-size: 12px;
+    }
+
+    #footer .footer_bottom {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    #footer .footer_bottom p {
+        font-size: 13px;
+    }
+
+
+
+
+
+}

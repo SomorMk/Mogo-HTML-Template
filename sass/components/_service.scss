@@ -1,0 +1,42 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Service css Start
+=========================================================*/
+#service {
+    padding: 110px 0 5px;
+
+    .service_inner {
+        margin-top: 65px;
+        .service_item {
+            padding-left: 70px;
+            position: relative;
+            margin-bottom: 90px;
+
+            i {
+                position: absolute;
+                top: 5px;
+                left: 25px;
+
+                color: #95e1d3;
+                font-size: 20px;
+            }
+
+            h6 {
+                @include fs(#333, 14px, 400, $mon);
+                margin-bottom: 15px;
+                text-transform: uppercase;
+            }
+
+            p {
+                @include fs(#999, 15px, 400, $robo);
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+/*=========================================================
+                    Service css end
+=========================================================*/

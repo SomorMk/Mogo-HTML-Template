@@ -1,0 +1,40 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Counter css Start
+=========================================================*/
+#counter {
+
+    background: #95e1d3;
+
+    .counter_inner {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .count_item {
+            width: 20%;
+            padding: 90px 0;
+            border-right: 1px solid #b5eae0;
+
+            &:first-child {
+                border-left: 1px solid #b5eae0;
+            }
+
+            h4 {
+                @include fs(#fff, 72px, 700, $mon);
+                margin-bottom: 5px;
+            }
+
+            p {
+                @include fs(#fff, 14px, 400, $mon);
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+/*=========================================================
+                    Counter css end
+=========================================================*/
